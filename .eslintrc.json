@@ -1,0 +1,20 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "plugins": ["eslint-plugin-import-helpers"],
+  "rules": {
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          ["/^react/"],
+          "/hooks/",
+          "module",
+          ["parent", "sibling", "index"],
+          ["/phosphor/", "/styles/", "/assets/"]
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ]
+  }
+}

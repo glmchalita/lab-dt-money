@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-02-04T18:19:24.704Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-02-04T18:10:24.704Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-02-05T00:04:13.866Z",
+      "id": 3
+    },
+    {
+      "description": "Pastel",
+      "price": 11,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-02-05T00:15:52.836Z",
+      "id": 4
+    },
+    {
+      "description": "Calça Jeans",
+      "price": 499,
+      "category": "Gasto Pessoal",
+      "type": "outcome",
+      "createdAt": "2024-02-05T00:18:21.705Z",
+      "id": 5
+    }
+  ]
+}
